@@ -10,23 +10,25 @@
 		34D6EB8B2EBA31C800078010 /* IosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		34D6EB9D2EBA31CA00078010 /* Exceptions for "IosApp" folder in "IosApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 34D6EB8A2EBA31C800078010 /* IosApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		34D6EB8D2EBA31C800078010 /* IosApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				34D6EB9D2EBA31CA00078010 /* Exceptions for "IosApp" folder in "IosApp" target */,
-			);
 			path = IosApp;
+			sourceTree = "<group>";
+		};
+		34D6EBA32EBA3B0F00078010 /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34D6EBA52EBA3B2300078010 /* View */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = View;
+			sourceTree = "<group>";
+		};
+		34D6EBA62EBA3B3800078010 /* Controller */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,6 +47,9 @@
 		34D6EB822EBA31C800078010 = {
 			isa = PBXGroup;
 			children = (
+				34D6EBA62EBA3B3800078010 /* Controller */,
+				34D6EBA32EBA3B0F00078010 /* Model */,
+				34D6EBA52EBA3B2300078010 /* View */,
 				34D6EB8D2EBA31C800078010 /* IosApp */,
 				34D6EB8C2EBA31C800078010 /* Products */,
 			);
@@ -75,6 +80,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				34D6EB8D2EBA31C800078010 /* IosApp */,
+				34D6EBA32EBA3B0F00078010 /* Model */,
+				34D6EBA52EBA3B2300078010 /* View */,
+				34D6EBA62EBA3B3800078010 /* Controller */,
 			);
 			name = IosApp;
 			packageProductDependencies = (
